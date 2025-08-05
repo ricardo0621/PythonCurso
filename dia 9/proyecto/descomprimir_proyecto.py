@@ -1,0 +1,2 @@
+import shutil
+shutil.unpack_archive('C:\\Users\\PC_WIN10\\Desktop\\UDEMY\\Curso Phyton\\Clase 9\\Proyecto\\Proyecto+Dia+9.zip', 'C:\\Users\\PC_WIN10\\Desktop\\UDEMY\\Curso Phyton\\Clase 9\\Proyecto\\desc_proy','zip')  # Descomprime el archivo zip en la carpeta destino

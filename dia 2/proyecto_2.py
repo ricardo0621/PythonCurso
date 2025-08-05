@@ -1,0 +1,5 @@
+nombre = input("nombre del vendedor: ")
+venta = int(input("cual es el monto de ventas: "))
+promedio = round(venta * 13/100,2)
+print(f"el vendedor {nombre} tiene un total de ventas por valor de ${venta} y su comision es de ${promedio}")
+print(type(venta))
