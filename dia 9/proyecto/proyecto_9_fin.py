@@ -30,6 +30,8 @@ def encontrar_codigos_y_archivos(ruta):
 
 
 def iniciar():
+    print('cristian baboso')
+
     print('📅 Fecha de búsqueda: ',hoy.strftime('%d/%m/%y')) # Imprime la fecha de búsqueda en formato día/mes/año
     print('ARCHIVOS\t\tNRO. SERIE\n--------\t\t----------') # Imprime el encabezado de la tabla
     encontrar_codigos_y_archivos(ruta_carpetas)
