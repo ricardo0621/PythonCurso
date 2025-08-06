@@ -3,7 +3,7 @@ import sys
 
 
 # Paquetes requeridos
-paquetes = ['pyinstaller']
+paquetes = ['beautifulsoup4', 'lxml', 'requests']
 
 # Función para instalar un paquete si no está presente
 def instalar_paquetes(paquetes):
@@ -20,5 +20,3 @@ if __name__ == '__main__':
     print("🔧 Verificando dependencias...\n")
     instalar_paquetes(paquetes)
     print("\n🎯 Todos los paquetes están listos para usar.")
-
-    pyinstaller - -onefile - -windowed - -add - data "ovni.png;." - -add - data "disparo.mp3;." - -add - data "cohete.png;." - -add - data "bala.png;." - -add - data "enemigo.png;." - -add - data "Fondo.jpg.mp3;." - -add - data "Golpe.mp3;." - -add - data "MusicaFondo.mp3;." juego_invasion_espacial.py
