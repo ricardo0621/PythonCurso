@@ -3,7 +3,7 @@ import sys
 
 
 # Paquetes requeridos
-paquetes = ['beautifulsoup4', 'lxml', 'requests']
+paquetes = ['webdriver-manager']
 
 # Función para instalar un paquete si no está presente
 def instalar_paquetes(paquetes):
