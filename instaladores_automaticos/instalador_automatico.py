@@ -3,7 +3,7 @@ import sys
 
 
 # Paquetes requeridos
-paquetes = ['webdriver-manager']
+paquetes = ['flask']
 
 # Función para instalar un paquete si no está presente
 def instalar_paquetes(paquetes):
